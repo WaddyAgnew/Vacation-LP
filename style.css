@@ -10,17 +10,18 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    
 }
 input[type=text], select {
-    width: 25%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(204, 204, 204);
     border-radius: 4px;
     box-sizing: border-box;
-    align-items: right;
-    right: 20px;
+   
+   
   }
   
 input[type=submit] {
@@ -36,10 +37,15 @@ input[type=submit] {
   
   input[type=submit]:hover {
     background-color: #45a049;
+    
   }
   
   div {
     border-radius: 5px;
     background-color: #f2f2f250;
+    margin-top: 20px;
+    margin-right: 10px;
     padding: 20px;
+    width:40%;
+    float: right;
   }
