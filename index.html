@@ -9,8 +9,9 @@
 </head>
 <body>
     <section class="body">
-        <div class="div">
-            <form action="/action_page.php">
+
+        <div id="div_form">
+            <form > <!--No php action yet-->
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
           
@@ -24,13 +25,13 @@
               <input type="text" id="cityLocation" name="city" placeholder="City">
 
               <label for="statelocation">State</label>
-              <input type="text" id="statelocation" name="state" placeholder="State">
+              <input type="text" id="statelocation" name="state" placeholder="State"pattern="[A-Z]{2}" required>
 
-              <label for="mail">Zip</label>
-              <input type="text" id="mail" name="email" placeholder="Email">
+              <label for="zipcode">Zip</label>
+              <input type="text" id="zipcode" name="zip" placeholder="Zip"pattern="[0-9]{5}" required>
 
-              <label for="mail">Phone</label>
-              <input type="text" id="mail" name="email" placeholder="Email">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(999) - 999 - 9999" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
 
               <label for="country">Country</label>
               <select id="country" name="country">
