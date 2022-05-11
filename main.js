@@ -13,8 +13,9 @@ function endingmessage(){
 }
 
 
-/* look into more sliding pages check to see if z-index will help........
--- just in case you for get, rember in main.js that the Id can do just as much as the style will allow in the regular style id nothing more --
+/* 
+- focus on greeting message 
+- after make sure the Gudbye msg show after the form is gone 
 
---probably mostly a css fix--
+--maybe add a better greeting screen before the putting in form proccess start
 */
