@@ -10,15 +10,27 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: auto;
     
-    
-}
-#MainGreet{
-  margin-right: 50%;
-  width: 25%;
-  
 }
 
+.Greet{
+  margin-right: 50%;
+  width: 25%;
+  font-size: 40px;
+  font-weight:350;
+  margin-top:5%;
+  position: absolute;
+  left:25px;
+  background-color: #4e4b4b00;
+  z-index: 0;
+  opacity: 1;
+}
+.fade_greet{ /*js for form */
+  z-index: -1;
+  opacity: 0;
+  transform: translate(20px);
+}
 
 /* Form selector */
 input[type=text], select {
@@ -81,4 +93,16 @@ input[type=button] {
     opacity: 0;
     transform: translate(20px);
   }
-  
+  .Gudbye{
+    
+  background-color: #4caf4f00;
+  }
+  .fade_gudbye{
+    z-index: 0;
+    width: 40%;
+    height: 40%;
+    background-color: #f2f2f250;
+    position: fixed;
+    top: 20%;
+    left: 27%;
+  }
