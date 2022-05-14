@@ -94,8 +94,14 @@ input[type=button] {
     transform: translate(20px);
   }
   .Gudbye{
-    
   background-color: #4caf4f00;
+  opacity: -1;
+  transform: translate(0px);
+  transition: opacity 1.5s, transform 1.5s, z-index 0.8s;
+  }
+  .Gudbye h1{
+    font-size: 40px;
+    position: relative;
   }
   .fade_gudbye{
     z-index: 0;
@@ -105,4 +111,19 @@ input[type=button] {
     position: fixed;
     top: 20%;
     left: 27%;
+    opacity: 1;
+    transform: translate(20px);
+    text-align: center;
+  }
+  .homeRepobtn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
